@@ -1,6 +1,8 @@
 import logging
 import flet as ft
 import os
+import random
+import pandas as pd
 
 
 db=pd.read_csv("stock_price_prediction_data.csv")
